@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar.js/Navbar";
 
 const App = () => {
   const [countries, setCountries] = useState([]);
+  
 
   useEffect(() => {
     axios
@@ -18,7 +19,7 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div className="bg-white dark:bg-gray-800">
       <Navbar />
 
       <Switch>
