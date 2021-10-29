@@ -21,12 +21,12 @@ const Filters = ({
             />
           </label>
         </div>
-        <div  className="mr-80 ">
+        <div className="mr-80 ">
           <label>
             <select
               value={selectedRegion}
               onChange={onChangeHandler}
-              className=" pl-30 dark:bg-gray-700 rounded-md shadow h-56 w-174"
+              className=" pl-14 dark:bg-gray-700 rounded-md shadow h-56 w-174"
             >
               <option value="none" disabled>
                 Select a region

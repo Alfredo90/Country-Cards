@@ -7,7 +7,8 @@ const CountryPage = ({ countries }) => {
     ({ name }) => countryName === name.toLowerCase()
   );
 
-  if (!country) return <p>no country found</p>;
+  if (!country)
+    return <p className="w-100 h-100vh dark:bg-gray-800">no country found</p>;
 
   const list = [
     { property: "Native Name", value: country.nativeName },
