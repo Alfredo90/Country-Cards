@@ -8,13 +8,12 @@ const Navbar = () => {
           <h1>Where in the World?</h1>
         </div>
         <div className="flex  mr-80">
-          
-        <ul className="flex  justify-center align-items-center m-10 ">
-          <li>
-            <MoonIcon className="w-16 h-24 mr-6 " />
-          </li>
-          <li className="text-16 ">Dark Mode</li>
-        </ul>
+          <ul className="flex  justify-center align-items-center m-10 ">
+            <li>
+              <MoonIcon className="w-16 h-24 mr-6 " />
+            </li>
+            <li className="text-16 ">Dark Mode</li>
+          </ul>
         </div>
       </div>
     </div>

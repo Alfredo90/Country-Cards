@@ -28,7 +28,7 @@ const CountryCards = ({countries}) => {
         selectedRegion={selectedRegion}
         setSelectedRegion={setSelectedRegion}
       />
-      {filteredCountries.length === 0 ? <p>No Country Data Found</p> : (
+      {filteredCountries.length === 0 ? <p>No Country Found Within The Filters</p> : (
         <ul className="flex flex-row flex-wrap justify-center align-items-center">
           {filteredCountries.map(country => (
             <CountryCard key={country.numericCode} country={country} />

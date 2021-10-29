@@ -1,4 +1,3 @@
-import "./App.css";
 import axios from "axios";
 import { Route, Switch } from "react-router";
 import { useState, useEffect } from "react";
@@ -19,7 +18,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="bg-white dark:bg-gray-800">
+    <div className="bg-white  dark:bg-gray-800 ">
       <Navbar />
 
       <Switch>

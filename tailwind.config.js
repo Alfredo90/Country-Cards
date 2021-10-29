@@ -56,6 +56,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'proxima-nova': ["Proxima Nova"]
+                       
       },
       width: values,
       height: values,
@@ -76,3 +77,4 @@ module.exports = {
   },
   plugins: [],
 }
+
